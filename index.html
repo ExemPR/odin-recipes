@@ -9,14 +9,72 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="script.js"></script>
   <style>
-    /* Your CSS styles here */
+    /* Paste your CSS styles here */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+      background-color: rgb(11, 241, 165);
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #e74c3c;
+    }
+
+    img {
+      max-width: 50%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #3498db;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    ul {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-left: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Lasagna Recipe</h1>
     <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">Recipe Title</a>
-    <img src="https://www.allrecipes.com/thmb/golmLzT4rSJfJ6QRi4e0G_82mDc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg" height="400" alt="Lasagna Image">
+    <img src="https://www.allrecipes.com/thmb/golmLzT4rSJfJ6QRi4e0G_82mDc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg" height="" alt="Lasagna Image">
     <h2>Description</h2>
     <p>This lasagna recipe is a delightful combination of layers of pasta, rich meat sauce, creamy béchamel, and plenty of cheese. It's baked to perfection, creating a mouthwatering dish that's perfect for gatherings or a cozy night in.</p>
     <h2>Ingredients</h2>
@@ -49,3 +107,4 @@
   <!-- End Recipes Index -->
 </body>
 </html>
+
